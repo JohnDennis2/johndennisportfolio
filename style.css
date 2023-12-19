@@ -1,0 +1,40 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: blue;
+}
+
+p {
+    text-wrap: ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+nav { text-decoration: underline;
+    background-color: black;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 200px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: blueviolet;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: azure;
+    }
+  }
+
