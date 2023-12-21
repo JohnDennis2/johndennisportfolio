@@ -18,14 +18,33 @@ h3 {
   text-align: center;
   color: aqua;
 }
+
+
+a {
+  align-items: center;
+  vertical-align: middle;
+}
+
+.align {
+  vertical-align: middle;
+}
+
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    align-items: center;
 }
 
+
+div{
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+}
 img{
   width: 100px;
   height: 100px;
+  text-align: center;
 }
 
 
@@ -54,7 +73,7 @@ ul {
 
 li{
   align-items: center;
-  fit
+  vertical-align: middle;
   
   
 }
@@ -73,7 +92,7 @@ li{
   
   @media screen and (min-width: 800px) {
     body {
-      background-color: azure;
+      background-color: rgb(129, 199, 199);
     }
   }
 
