@@ -80,18 +80,21 @@ li{
 
 @media screen and (max-width: 200px) {
     body {
+      font-size: large;
       background-color: lightblue;
     }
   }
 
   @media screen and (min-width: 400px) {
     body {
+      font-size: medium;
       background-color: blueviolet;
     }
   }
   
   @media screen and (min-width: 800px) {
     body {
+      font-size: small;
       background-color: rgb(129, 199, 199);
     }
   }
