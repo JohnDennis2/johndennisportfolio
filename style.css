@@ -1,5 +1,8 @@
 body {
-    background-color: aqua;
+    background-color: rgb(150, 199, 199);
+    margin-bottom: 100px;
+    margin-top: 100px;
+
 }
 
 h1 {
@@ -7,17 +10,54 @@ h1 {
     text-align: center;
     color: blue;
 }
-
+h2 {
+  text-align: center;
+}
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: aqua;
+}
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
-nav { text-decoration: underline;
-    background-color: black;
-    text-align: center;
+img{
+  width: 100px;
+  height: 100px;
 }
 
+
+main {
+  margin-top: 100px;
+  background-color: antiquewhite;
+  
+}
+
+nav { text-decoration: underline;
+    background-color: rgb(155, 172, 86);
+    text-align: center;
+    margin: auto;
+    max-width: 300px;max-height: 200px;
+
+    
+}
+ul {
+  list-style: none;
+  max-width: 200px;
+  max-height: 100px;
+  text-align: center;
+
+
+}
+
+li{
+  align-items: center;
+  fit
+  
+  
+}
 
 @media screen and (max-width: 200px) {
     body {
